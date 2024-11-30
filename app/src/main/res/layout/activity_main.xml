@@ -13,6 +13,12 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+<WebView
+    android:id="@+id/webview"
+    android:layout_width="500dp"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="90dp"/>
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -62,7 +68,7 @@
                 android:layout_height="190dp"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:background="@drawable/foodBag" />
+                android:background="@drawable/getirfoodbag" />
 
 
             <TextView
@@ -93,7 +99,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="getirbüyük"
                 android:textColor="@color/purple"
-                android:textSize="30sp" />
+                android:textSize="27sp" />
 
             <ImageView
                 android:layout_width="110dp"
@@ -102,7 +108,7 @@
                 android:layout_alignParentEnd="true"
                 android:scaleX="2"
                 android:scaleY="2"
-                android:background="@drawable/shoppingBag" />
+                android:background="@drawable/getirbag" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -123,7 +129,7 @@
                 android:layout_below="@+id/viewGetirBazaar"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:background="@drawable/getirBazaar"
+                android:background="@drawable/getirshoppingbag"
                 android:scaleX="1.5"
                 android:scaleY="1.6" />
 
@@ -161,7 +167,7 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
-                android:background="@drawable/bottle"
+                android:background="@drawable/getirbottle"
                 android:scaleX="2"
                 android:scaleY="1.6"
                 android:scaleType="centerCrop" />
@@ -185,7 +191,9 @@
                 android:layout_height="100dp"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:background="@drawable/getirTaxi"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/getirtaxi"
                 android:scaleX="1.5"
                 android:scaleY="2" />
 
@@ -197,7 +205,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="getirbitaksi"
                 android:textColor="@color/purple"
-                android:textSize="30sp" />
+                android:textSize="27sp" />
 
 
         </RelativeLayout>
@@ -222,14 +230,14 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="getiryemek"
                 android:textColor="@color/purple"
-                android:textSize="30sp" />
+                android:textSize="27sp" />
 
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="130dp"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:background="@drawable/getirHamburger" />
+                android:background="@drawable/getirhamburger" />
 
 
         </RelativeLayout>
